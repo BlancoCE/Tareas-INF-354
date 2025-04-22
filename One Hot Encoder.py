@@ -1,3 +1,5 @@
+#Convierte variables categóricas en un conjunto de variables binarias (0 o 1), creando una columna por cada categoría.
+#Ejemplo sin librerías:
 def one_hot_encoder(categories):
     unique_cats = list(set(categories))
     encoded = []
