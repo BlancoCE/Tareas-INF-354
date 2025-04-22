@@ -1,4 +1,5 @@
 #Similar a One Hot Encoder pero específico para etiquetas de destino (target). Convierte etiquetas multiclase en formato binario.
+#Ejemplo sin librerías:
 def label_binarizer(labels, classes=None):
     if classes is None:
         classes = list(set(labels))
