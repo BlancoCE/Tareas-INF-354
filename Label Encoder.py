@@ -1,3 +1,5 @@
+#Transforma etiquetas categóricas (texto) en valores numéricos. Asigna un número único a cada categoría.
+#Ejemplo sin librerías:
 def label_encoder(categories):
     unique_cats = list(set(categories))
     mapping = {cat: idx for idx, cat in enumerate(unique_cats)}
